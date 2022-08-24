@@ -1,30 +1,26 @@
-
-
-// base styles
-@import './base/fonts';
+// base
 @import './base/common';
-@import './base/reset';
 @import './base/container';
+@import './base/fonts';
+@import './base/reset';
 
 // utils
+@import './utils/mixin';
 @import './utils/vars';
 @import './utils/visually-hidden';
-@import './utils/mixin';
-
 
 
 // components
-@import './components/modal-form';
-@import './components/subscription-form';
-@import './components/header';
-@import './components/hero-section';
 @import './components/benefits-section';
-@import './components/work-section';
-@import './components/team';
 @import './components/clients-section';
 @import './components/footer';
+@import './components/header';
+@import './components/hero-section';
+@import './components/modal-form';
 @import './components/portfolio';
-
+@import './components/subscription-form';
+@import './components/team-section';
+@import './components/work-section';
 
 
 
