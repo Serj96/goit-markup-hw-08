@@ -4,7 +4,7 @@
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: start;
+    justify-content: center;
     margin-bottom: 40px;
     @media screen and (min-width: 767px){
       justify-content: center;
